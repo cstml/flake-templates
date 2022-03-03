@@ -54,6 +54,11 @@
         path = ./hercules-ci;
         description = "An example for Hercules-CI, containing only the necessary attributes for adding to your project.";
       };
+      
+      idris2 = {
+        path = ./idris2;
+        description = "Idris2 template.";
+      };
 
     };
 
