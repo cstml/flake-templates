@@ -14,7 +14,7 @@
         path = ./simple-container;
         description = "A NixOS container running apache-httpd";
       };
-    
+
       python = {
         path = ./python;
         description = "Python template, using poetry2nix";
@@ -58,6 +58,28 @@
       idris2 = {
         path = ./idris2;
         description = "Idris2 template.";
+      };
+
+      full = {
+        path = ./full;
+        description = "A template that shows all standard flake outputs";
+        welcomeText = ''
+          You just created a template that will show you all standard flake outputs.
+
+          Read more about it here:
+
+            https://github.com/NixOS/templates/tree/master/full
+        '';
+      };
+
+      pandoc-xelatex = {
+        path = ./pandoc-xelatex;
+        description = "A report built with Pandoc, XeLaTex and a custom font";
+      };
+
+      go-hello = {
+        path = ./go-hello;
+        description = "A simple Go package";
       };
 
     };
