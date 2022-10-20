@@ -5,6 +5,11 @@
 
     templates = {
 
+      basic = {
+        path = ./basic;
+        description = "The basic flake";
+      };
+
       trivial = {
         path = ./trivial;
         description = "A very basic flake";
