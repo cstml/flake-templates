@@ -15,7 +15,7 @@
 
     additionalPkgs = with pkgs; [  ];
 
-    cmake-bin = nixpkgs.packages.${system}.cmake;
+    cmake-bin = pkgs.cmake;
 
     buildPkgs = with pkgs; [ cmake-bin ]; 
 
