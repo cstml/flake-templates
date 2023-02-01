@@ -47,7 +47,13 @@
 
       compat = {
         path = ./compat;
-        description = "A default.nix and shell.nix for backward compatibility with Nix installations that don't support flakes";
+        description =
+          "A default.nix and shell.nix for backward compatibility with Nix installations that don't support flakes";
+      };
+
+      haskell-basic = {
+        path = ./haskell-hello;
+        description = "A basic Haskell haskell project template.";
       };
 
       haskell-hello = {
@@ -57,9 +63,10 @@
 
       hercules-ci = {
         path = ./hercules-ci;
-        description = "An example for Hercules-CI, containing only the necessary attributes for adding to your project.";
+        description =
+          "An example for Hercules-CI, containing only the necessary attributes for adding to your project.";
       };
-      
+
       idris2 = {
         path = ./idris2;
         description = "Idris2 template.";
