@@ -52,7 +52,7 @@
       };
 
       haskell-basic = {
-        path = ./haskell-hello;
+        path = ./haskell-basic;
         description = "A basic Haskell haskell project template.";
       };
 
